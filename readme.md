@@ -2,12 +2,39 @@
 🚀 Project Overview
 This project is a Hotel Booking System designed to allow users to browse available rooms, make bookings, and manage their reservations. The system includes a secure admin panel for managing rooms, bookings, and pricing.
 
+✅ Setup Instructions
+Clone the repository:
+bash
+Copy code
+git clone git@github.com:charanrocky/BookMyHotel.git
+Navigate to the project directory:
+bash
+Copy code
+cd BookMyHotel
+Install dependencies:
+bash
+Copy code
+npm install
+Start the development server:
+bash
+Copy code
+npm run dev
+Start the backend server:
+bash
+make .env file
+PORT=5000
+MONGO_URI=mongodb+srv://charanrocky441:rocky@cluster0.wx4or.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=4234239i923njsnd3qie3quhuh9899
+
+npm run start
+
 👥 Team Composition
 Role Responsibility
 Frontend Developer Build responsive UI components, integrate API calls, and handle state management
 Backend Developer Create REST APIs, handle authentication, and connect with the database
 UI/UX Designer Create wireframes and designs using Figma
 QA Engineer Test API endpoints, UI responsiveness, and overall functionality
+
 📅 Project Timeline (1 Week)
 Day 1 - UI/UX Design
 Create wireframes and mockups using Figma.
@@ -39,6 +66,7 @@ Day 7 - Deployment & Final QA
 Deploy frontend on Vercel and backend on Render.
 Final bug fixes and performance optimizations.
 Prepare project documentation.
+
 🏗️ Tech Stack
 Layer Technology
 Frontend React.js + Vite, Tailwind CSS
@@ -76,6 +104,7 @@ Start the backend server:
 bash
 Copy code
 npm run start
+
 📌 Contributors
 Frontend Developer – Sai Charan Kamble
 Backend Developer – Sai Charan Kamble
@@ -85,6 +114,7 @@ QA Engineer – Sai Charan Kamble
 Add payment gateway integration.
 Implement multi-language support.
 Introduce room recommendations based on user preferences.
+
 🚀 Ready for production! 👨‍💻🏆
 
 🏨 Hotel Booking System
@@ -97,6 +127,7 @@ Frontend Developer Build responsive UI components, integrate API calls, and hand
 Backend Developer Create REST APIs, handle authentication, and connect with the database
 UI/UX Designer Create wireframes and designs using Figma
 QA Engineer Test API endpoints, UI responsiveness, and overall functionality
+
 📅 Project Timeline (1 Week)
 Day 1 - UI/UX Design
 Create wireframes and mockups using Figma.
@@ -128,6 +159,7 @@ Day 7 - Deployment & Final QA
 Deploy frontend on Vercel and backend on Render.
 Final bug fixes and performance optimizations.
 Prepare project documentation.
+
 🏗️ Tech Stack
 Layer Technology
 Frontend React.js + Vite, Tailwind CSS
