@@ -1,0 +1,22 @@
+Hi Junior Developer's,
+
+Thank you for submitting your recent pull request (PR). I appreciate the effort you put into the changes; however, after reviewing the PR, I’ve identified a few issues that need to be addressed before it can be merged.
+
+🚨 Reasons for Rejection:
+Code Consistency – The coding style is not aligned with our project’s guidelines. For instance, the indentation and use of camelCase for variable names should match the existing format.
+Missing Error Handling – The API call in BookingService.js is not wrapped in a try-catch block, which could cause the application to crash in case of a failed request.
+Incomplete Unit Tests – The new RoomAvailability component lacks test coverage. We require at least 80% test coverage for new components.
+Hardcoded Values – There are some hardcoded URLs in the config.js file that should be moved to environment variables.
+💡 Suggested Improvements:
+✅ Follow the project's ESLint and Prettier configurations to maintain code consistency.
+✅ Wrap all async functions in try-catch blocks to handle errors gracefully.
+✅ Add unit tests using Jest for the new component to meet the test coverage requirement.
+✅ Replace hardcoded values with environment variables (use process.env).
+
+Please make these adjustments and submit the updated PR. If you need any help or clarification, feel free to reach out — I’m happy to walk you through any of the changes!
+
+Thank you for your hard work — once these issues are addressed, I’m confident your PR will be ready to merge.
+
+Best regards,
+Sai Charan. Kamble
+Senior Developer
